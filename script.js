@@ -26,4 +26,7 @@ fetch(wordnikurl)
       content.style = 'color:red';
       content.innerText = 'Gif Not found for the query !!!';
     }
+  })
+  .catch((error)=>{
+      console.log(error);
   });
